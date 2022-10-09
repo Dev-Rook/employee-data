@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
 import Styles from "../../Styles/Page-Styles/Landing/Landing.module.css"
 
-import Pagination from '../../Page-Sections/Pagination/Pagination'
+import Personel from '../../Page-Sections/Personel/Personel'
 
 const Landing = () => {
   return (
     <div className={Styles.Landing}>
-      <Pagination />
+      <Personel />
     </div>
   )
 }
