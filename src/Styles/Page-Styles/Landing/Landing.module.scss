@@ -1,0 +1,41 @@
+.Landing {
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px;
+  padding-top: 150px;
+  gap: 80px;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 1250px;
+
+  transition: 0.5s;
+
+  .Page_Title {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+
+    margin: auto;
+    margin-top: 100px;
+  }
+}
+
+// Media Queries Start
+
+@media only screen and (max-width: 1250px) {
+  .Landing {
+    width: 100%;
+  }
+}
+
+// Media Queries End
